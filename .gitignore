@@ -1,0 +1,33 @@
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (large or sensitive)
+data/
+*.csv
+*.xlsx
+
+# Model files
+models/
+*.pkl
+*.joblib
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
