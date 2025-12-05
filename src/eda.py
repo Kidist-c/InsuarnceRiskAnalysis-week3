@@ -76,8 +76,8 @@ class InsuranceEDA:
             plt.title("Claims Severity by Vehicle Type")
             plt.show()
         #INsight 3: Monthly Trends
-        if "PolicyStartDate" in self.df.columns and "TotalClaims" in self.df.columns:
-            self.df["Month"]=self.df["PolicyStartDate"].dt.month
+        if "TransactionMonth" in self.df.columns and "TotalClaims" in self.df.columns:
+            self.df["Month"]=self.df["TransactionMonth"].dt.month
             Monthly=self.df.groupby("Month")["TotalClaims"].sum()
             plt.figure(figsize=(8,6))
             Monthly.plot(kind="line",marker="o")

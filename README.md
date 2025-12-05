@@ -64,3 +64,15 @@ This project is part of the AlphaCareInsurance Solutions(ACIS) analaytics intiat
        * Install dependencies
 
        * Run pytest tests automatically on every push or pull request
+
+### 📊 Exploratory Data Analysis (EDA)
+
+The goal of the Exploratory Data Analysis (EDA) stage is to understand the structure, quality, and key insights in the processed insurance dataset. This step helps reveal data patterns, highlight anomalies, and guide further modeling decisions.
+
+- Data Summarization:
+
+* Described the shape , the dtypes and the missing values of the data set
+* UNIVARIANTE ANALYSIs
+* BIVARINTE ANALYSIS
+* CORRELATION MATRIX
+* INSIGHT PLOT
